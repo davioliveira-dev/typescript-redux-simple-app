@@ -1,0 +1,58 @@
+.fab-button {
+  position: absolute;
+  top: 30px;
+  left: 80vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+  margin: 20px 0;
+}
+
+input {
+  min-width: 300px;
+}
+
+.article {
+  display: flex;
+  margin-top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+}
+
+.article div {
+  margin: 0 10px;
+}
+
+.article h1, .article p {
+  margin: 20px 0;
+}
+
+.article button {
+  min-width: 160px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .article {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
